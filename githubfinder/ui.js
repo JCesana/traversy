@@ -1,7 +1,7 @@
 class UI {
     constructor() {
         this.profile = document.getElementById('profile');
-        this.alertTimer = ''; // better way to do this?
+        this.alertTimer;
     }
 
     // Display profile in UI
